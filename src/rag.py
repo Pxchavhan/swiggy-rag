@@ -6,7 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 
-from src.prompts import SYSTEM_PROMPT, USER_PROMPT
+from prompts import SYSTEM_PROMPT, USER_PROMPT
 
 INDEX_DIR = "faiss_index"
 
