@@ -3,8 +3,11 @@
 ## Overview
 This project is a **Retrieval-Augmented Generation (RAG)** based Question Answering system that answers user questions **strictly using the Swiggy Annual Report**. The system retrieves relevant excerpts from the report and uses an LLM (**Groq**) to generate **context-grounded answers with page citations**. If the answer is not present in the retrieved report context, the system **refuses** to answer to prevent hallucinations.
 
+---
+
 ## Objective
 Build an AI system that can accurately answer user questions based **ONLY** on the Swiggy Annual Report (PDF) using a RAG pipeline:
+
 - Document ingestion and chunking  
 - Embedding generation  
 - Vector search (semantic retrieval)  
@@ -14,16 +17,15 @@ Build an AI system that can accurately answer user questions based **ONLY** on t
 ---
 
 ## Document Source (Required)
+
 **Swiggy Annual Report (FY 2023–24)** (publicly available PDF)
 
-**Source link:** https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Annual-Report-FY-2023-24-1.pdf
-
-
+**Source link:**  
+https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Annual-Report-FY-2023-24-1.pdf
 
 ---
 
 ## Architecture
-**High-level flow:**
 
 ### 1) PDF Ingestion
 - Load Swiggy annual report PDF  
@@ -57,6 +59,16 @@ Build an AI system that can accurately answer user questions based **ONLY** on t
 - Groq (LLM inference)
 
 ---
+## Live Demo
+
+- Deployed app URL:
+https://swiggy-rag-cuf8tq3yqt6nypzuagxpxh.streamlit.app/
+
+## Author
+- Prachi Chavhan
+
+## GitHub:
+- https://github.com/Pxchavhan/swiggy-rag
 
 ## Repository Structure
 ```text
@@ -72,10 +84,3 @@ swiggy-rag/
 ├─ requirements.txt
 ├─ runtime.txt               # python-3.11 for Streamlit Cloud
 └─ README.md
-
-##Live Demo Deployed app URL: 
--https://swiggy-rag-cuf8tq3yqt6nypzuagxpxh.streamlit.app/ 
-
-##Author Prachi Chavhan
-
-#GitHub: https://github.com/Pxchavhan/swiggy-rag
