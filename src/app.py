@@ -6,11 +6,6 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from rag import answer_question, load_db, format_context
 
-from ingest import build_faiss_index
-
-# ✅ Build FAISS index automatically if not present
-if not os.path.exists("faiss_index"):
-    build_faiss_index()
 
 st.set_page_config(page_title="Swiggy Annual Report RAG", layout="wide")
 st.title("Swiggy Annual Report Q&A (RAG)")

@@ -8,8 +8,7 @@ __pycache__/
 # Environment variables
 .env
 
-# Vector database (FAISS)
-faiss_index/
+
 
 # OS files
 .DS_Store
