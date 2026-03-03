@@ -6,3 +6,4 @@ sentence-transformers==3.0.1
 faiss-cpu==1.13.2
 streamlit==1.37.1
 python-dotenv==1.0.1
+langchain-huggingface==0.0.3
