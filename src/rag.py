@@ -59,7 +59,7 @@ def answer_question(question: str, k: int = 6) -> str:
     scores = [s for _, s in docs_scores]
 
     # Distance threshold (lower is better in FAISS)
-    if min(scores) > 1.1:
+    if min(scores) > 2.0:
         return "I can't find this in the Swiggy Annual Report."
 
     context = format_context(docs)
