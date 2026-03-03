@@ -73,9 +73,9 @@ swiggy-rag/
 ├─ runtime.txt               # python-3.11 for Streamlit Cloud
 └─ README.md
 
-Live Demo Deployed app URL: 
-https://swiggy-rag-cuf8tq3yqt6nypzuagxpxh.streamlit.app/ 
+##Live Demo Deployed app URL: 
+-https://swiggy-rag-cuf8tq3yqt6nypzuagxpxh.streamlit.app/ 
 
-Author Prachi Chavhan
+##Author Prachi Chavhan
 
-GitHub: https://github.com/Pxchavhan/swiggy-rag
+#GitHub: https://github.com/Pxchavhan/swiggy-rag
