@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 
-from rag import answer_question, load_db, format_context
+from src.rag import answer_question, load_db, format_context
 from ingest import build_faiss_index
 
 # ✅ Build FAISS index automatically if not present
